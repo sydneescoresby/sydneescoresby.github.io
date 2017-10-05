@@ -1,0 +1,110 @@
+	p{
+		color:white;
+		font-size:20px;
+	}
+.listitem {
+	color:red;
+	font-size:20px;
+}
+	#background {
+		background-color:#00cdbe;
+	}
+	#button {
+		height:50%
+		width:50%
+		color:blue
+		background-color:black
+		border-radius:15px;
+	}
+	header {
+		height:200px;
+		width:99%;
+		background-color:#006962;
+		border:1px solid black;
+		margin-bottom: auto;
+	}
+	footer {
+		height:50px;
+		width:100%;
+		background-color:#006962;
+		border:1px solid black;
+	}
+	.wrap-trivia{
+		height:200px;
+		width:450px;
+		border:5px solid #70868e;
+		padding: 15px;
+	}
+	.wrap-list {
+		height:100px;
+		width:450px;
+		border:5px solid #70868e;
+	}
+	.wrap-text {
+		color:#edf0f2;
+		font-size: 2.1em;
+	}
+	.navitem{
+		list-style-type: none;
+		display: inline;
+		padding-right:1.5em;
+	}
+	#navmenu{
+		width: 250px;
+		height: 30px;
+		margin: auto;
+	}
+	a:link{
+		color:red;
+	}
+	a:visited{
+		color:blue;
+	}
+	a:hover{
+		color:purple;
+	}
+	a:active{
+		color:orange;
+	}
+	#rightside{
+		float:right;
+		width: 50%;
+		padding-top: 350px;
+	}
+	#leftside{
+		width: 65%;
+	}
+
+	/*positions css*/
+	#one{
+		height: 150px;
+		width: 150px;
+		background-color: #3f44c1;
+		display: inline;
+		position: absolute;
+		z-index: 1;
+		}
+	#two{
+		height: 150px;
+		width: 150px;
+		background-color: #4286f4;
+		display: inline;
+		position: absolute;
+		z-index: 2;
+		position: relative;
+		top: 700px;
+		}
+	#three{
+		height: 150px;
+		width: 150px;
+		background-color: #77859b;
+		display: inline-block;
+		position: absolute;
+		position: fixed;
+		left: 25%;
+		}
+	#banana{
+		height: 2048px;
+	}
+
+
